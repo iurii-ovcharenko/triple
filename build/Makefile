@@ -16,7 +16,7 @@ LD	= gcc
 
 CFLAGS	= -Wall -Wextra
 CFLAGS	+= $(foreach f,$(INC_DIR),-I$(f))
-CFLAGS	+= -DDEBUG=\"fill_free\"
+CFLAGS	+=  -DDEBUG=\"fill_free\" -DFORCEMAJOR=1
 
 $(call printv,BUILD_DIR)
 $(call printv,TOP_DIR)

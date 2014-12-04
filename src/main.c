@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 {
   int i;
 
-  printf("%s but as %s\n", PROG, DEBUG);
+  printf("%s but as %s for %d\n", PROG, DEBUG, FORCEMAJOR);
   for (i = 0; i < argc; i++)
   {
     printf("%-3d=%s\n", i, argv[i]);
