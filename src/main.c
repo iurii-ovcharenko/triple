@@ -12,6 +12,7 @@ int main(int argc, char *argv[])
   {
     printf("%-3d=%s\n", i, argv[i]);
   }
+  printf("Be happy!\n");
 
   return 0;
 }
